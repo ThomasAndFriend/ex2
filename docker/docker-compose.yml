@@ -1,0 +1,10 @@
+version "3.1"
+services:
+  ex2:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: ex2:v1.0.0
+    container_name: ex2
+    ports:
+      - 8081:8080
